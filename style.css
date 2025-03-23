@@ -1483,7 +1483,7 @@ textarea:hover {
   /* Bild soll volle Breite einnehmen */
   #limited-hoodie-section .hoodie-image {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   
   #limited-hoodie-section .hoodie-image img {
