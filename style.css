@@ -1473,3 +1473,47 @@ textarea:hover {
     display: block;
   }
 }
+@media screen and (max-width: 768px) {
+  /* Container in Spaltenanordnung */
+  #limited-hoodie-section .limited-hoodies-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Bild soll volle Breite einnehmen */
+  #limited-hoodie-section .hoodie-image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  #limited-hoodie-section .hoodie-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* Info-Bereich zentriert und mit angepasstem Padding */
+  #limited-hoodie-section .hoodie-info {
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+  
+  /* Überschrift und Text etwas verkleinern und näher zusammenrücken */
+  #limited-hoodie-section .hoodie-info h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  #limited-hoodie-section .hoodie-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* To the product Button zentriert und mit angepassten Abständen */
+  #limited-hoodie-section .hoodie-info .product-link {
+    display: inline-block;
+    margin-top: 10px;
+  }
+}
